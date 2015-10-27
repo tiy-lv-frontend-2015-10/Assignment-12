@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+ <link rel="stylesheet" href="normalize.css" > 
+ <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="main.css" >
+
+</head>
+<body>
+  <header>
+	<h1>Etsy</h1>
+
+	<div class="searchbar">
+	   	<input id="search" name="search" placeholder="whiskey" />
+	   	<button class="searchB">search</button>
+	</div>
+
+	<div class="signup">
+		<ul>
+		   <li><a href="#">sell on Etsy</a></li>
+		   	<li><a href="#">Register</a></li>
+		   	<li><a href="#"><button class="siBtn">sign in</button></a></li>
+		   	<li><div class="cart">cart</div></li>
+	   	</ul>
+	</div>
+</header>
+<!--nav bar -->
+<div class="navbar">
+	<nav>
+		<ul>
+			<li>Clothing & Accessories</li>
+			<li>Jewelry</li>
+			<li>Craft Supplies & Tools</li>
+			<li>Weddings</li>
+			<li>Entertainment</li>
+			<li>Home & Living</li>
+			<li>Kids & Baby</li>
+			<li>Vintage</li>
+		</ul>
+	</nav>
+</div>
+
+		<div class="panel">
+			<p>Show results for:</p><!--panel-->
+				<ul id="listContainer">
+					<li id="panel-span"> All Categories </li>	
+					<li>Home & Living </li>
+					<li>Art & Collectibles</li>
+					<li>Weddings</li>
+					<li>Clothing</li>
+					<li>Paper & Party Supplies</li>
+					<li>Jewelry</li>
+					<li>Accessories</li>
+					<li>Craft Supplies & Tools</li>
+					<li>Bags & Purses</li>
+					<li>Bath & Beauty</li>
+					<li>Shoes</li>
+					<li>Books, Movies & Music</li>
+					<li>Electronics & Accessories</li>
+					<li>Toys & Games</li>
+					<li>Pet Supplies</li>
+				</ul>
+		</div>
+
+
+		
+			<div class="panel2">
+			<span>Refine your search </span>
+				<div class="item-type"> --><!--radio button-->
+				
+					<h6>Item Type</h6>
+					<button type="radio" name="item" checked="checked" class="rBtn1" ></button><p class="radio1">All Items</p>
+					<button type="radio" name="item" checked="checked" class="rBtn2" ></button><p class="radio2">Handmade</p>
+					<button type="radio" name="item" checked="checked" class="rBtn3" ></button><p class="radio3">Vintage</p>
+
+				</div>
+
+				<div class="price"> --><!--price -->
+					<h6>Price</h6>
+						<input name="high" value="high" >
+						<span>to</span>
+						<input name="low" value="low" >
+						<button></button>
+				</div>
+
+				<div class="buttoncolor"> --> <!--filter color -->
+					<h6>Filter by Color</h6>
+						<button class="red square"></button>
+						<button class="orange square"></button>
+						<button class="yellow square"></button>
+						<button class="green square"></button>
+						<button class="blue square"></button>
+						<button class="purple square"></button>
+						<button class="black square"></button>
+						<button class="white square"></button>
+				</div>
+
+			<div class="ordering">   ordering Options--> 
+					<h6>Ordering Options</h6>
+						<input type="checkbox"><p>Accepts Etsy Gift Cards</p>
+						<input type="checkbox"><p>Customizable</p>
+						<a href="#">Choose a custom location</a>
+				</div>
+		 		
+		 		<div class="ship">
+		 		<h6>Ship To</h6>
+		 			<select>
+			 			<option Name="United States" value="United States">United States</option>
+			 			<option Name="United States" value="United States">Canada</option>
+			 			<option Name="United States" value="United States">Spain</option>
+			 			<option Name="United States" value="United States">Russia</option>
+			 			
+			 		</select>
+		 		</div>
+			</div>
+
+					
+
+		<div class="cat-container"> <!--all img container -->
+			<div class="top-cat">
+				<div class="popular">
+						<span>Top categories for "Whiskey"</span> <!--top categories-->
+					<img src="http://placehold.it/350x250" />
+						<div class="img-cap">
+							<p>Home & Living</p>
+							<a href"#">11,300 Items</a>
+						</div>
+					<img src="http://placehold.it/350x250" />
+						<div class="img-cap">
+							<p>Art & Collectibles</p>
+							<a href"#">4,505 Items</a>
+						</div>
+				</div>
+				<div class="most">
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Weddings</p>
+							<a href"#">3,385 Items</a>
+						</div>
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Clothing</p>
+							<a href"#">1,845 Items</a>
+						</div>
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Paper & Party Supplies</p>
+							<a href"#">1,321 Items</a>
+						</div>
+				</div>
+		</div>
+
+		<div class="allCat"> <!--ALL CATEGORIES-->
+
+				<div class="allcat-head">
+					<a href="#">All Categories></a>
+					<span> > "whiskey" (26,198 Results) </span>
+					<span> sort by : </span>
+					<a href="#">Relevancy</a>	
+				</div>
+
+			<div id="catAdContainer"> <!--start of all ad img-->
+			
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="catAd">
+					<img src="http://placehold.it/240x200" />
+					<div class="catAdCap">
+					  <p>Custom Jack Daniels Mini bottle ..</p>
+						<div class="AdDescrip">
+							<p>LiquidCourage</p>
+							<p class="adprice">$25.00 USD</p>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+
+				<div class="relatedTo">
+					<span>Related to whiskey</span>
+						<ul>
+							<li><a href="#">whiskey decanter</a></li>
+							<li><a href="#">whiskey barrel</a></li>
+							<li><a href="#">whiskey stones</a></li>
+							<li><a href="#">bouron</a></li>
+							<li><a href="#">jack daniels</a></li>
+							<li><a href="#">cigar</a></li>
+							<li><a href="#">scotch</a></li>
+							<li><a href="#">beer</a></li>
+							<li><a href="#">whiskey bottle</a></li>
+							<li><a href="#">jameson</a></li>
+
+						</ul>
+					<p>Looking for Shops?<a href="#"> whiskeynweddingbells, WhiskeyDogWares, WhiskeysWhims. See more.</a> </p>
+
+					<div class="pageButton">	
+						<button class="arrow"></button>
+							<button class="number">1</button>
+							<button class="number">2</button>
+							<button class="number">3</button>
+							<button class="number">4</button>
+							<button class="number">5</button>
+							<button class="number">6</button>
+							<button class="number">7</button>
+							<button class="number">8</button>
+								<button class="etcBtn">...</button>
+							<button class="number">250</button>
+						<button class="arrow"></button>
+					</div>	
+				</div>
+		</div>
+	</div> <!--end of all cat container -->
+
+	<section class="subscribe">
+		<p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</p>
+			<input id="search" name="search" placeholder="Enter your email" /><button class="subBtn">Subscribe</button>
+
+	</section>
+
+	
+	
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="data.js"></script>
+<script src="main.js"></script>
+
+
+
+
+<script type="x-tmpl-mustache" id="listcatImg">
+	 			
+	 			{{#mapData}}
+					{{title}}
+	 				{{price}}
+	 				{{shop_name}}
+	 				{{currency_code}}
+	 				{{url_170x135}}
+	 				{{url}}
+	 			{{/mapData}}
+	 	
+				
+
+
+
+	 			
+ 		</script>
+
+
+
+</body>
+</html>
