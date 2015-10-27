@@ -29,33 +29,7 @@ $("#overlay").on('click', function(e){
  	$(".acc2_1").toggleClass("displayBlock");
  });
 
- $("#cat2").hover(function(){
- 	$(".catDiv1").toggleClass("displayBlock");
- });
 
- $("#cat3").hover(function(){
- 	$(".catDiv3").toggleClass("displayBlock");
- });
-
- $("#cat4").hover(function(){
- 	$(".catDiv4").toggleClass("displayBlock");
- });
-
- $("#cat5").hover(function(){
- 	$(".catDiv5").toggleClass("displayBlock");
- });
-
- $("#cat6").hover(function(){
- 	$(".catDiv6").toggleClass("displayBlock");
- });
-
- $("#cat7").hover(function(){
- 	$(".catDiv7").toggleClass("displayBlock");
- });
-
- $("#cat8").hover(function(){
- 	$(".catDiv8").toggleClass("displayBlock");
- });
 
  
 
@@ -80,7 +54,7 @@ $("#overlay").on('click', function(e){
 				'currency_code':obj.currency_code,
 				'url_170x135': obj.Images[0]['url_170x135'],
 				'url':obj.url
-			};
+				};
 		});
 
 
