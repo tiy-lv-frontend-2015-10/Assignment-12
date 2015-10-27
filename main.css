@@ -276,7 +276,7 @@ h1 {
 
 
 
-.catDiv {
+.catDiv1 {
 	position: absolute;
 	top:32px;
 	width:980px;
@@ -289,10 +289,30 @@ h1 {
 
 .innerMenu {
 	position: absolute;
-	left:250px;
+	left:190px;
+	padding:15px;
+	top:0px;
+	
+}
+
+
+
+.innerMenuLi {
+	margin:5px;
+	color:black;
+}
+
+.innerMenuLi a {
+	color:black;
+}
+
+.acc1_1 {
 	display: none;
 }
 
+.acc2_1 {
+	display: none;
+}
 
 
 
@@ -301,18 +321,13 @@ h1 {
 	display: block;
 }
 
-.catleft ul {
-	margin:0px;
-}
-.catleft {
-	width:225px;
-	border-right:1px solid #E1E3DF;
-}
+
 .subMenuLi {
 	padding:15px;
+
 }
 
-.catDiv li:hover {
+.subMenuLi:hover {
 	background-color: #E5F4F7;
 	color:#87B4D7;
 }
@@ -334,7 +349,10 @@ h1 {
 .subMenu {
 	width:200px;
 	border-right:1px solid #E1E3DF;
+	height:500px;
 }
+
+
 
 h3 {
 	font-size: 12px;

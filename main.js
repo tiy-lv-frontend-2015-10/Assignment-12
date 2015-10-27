@@ -18,13 +18,47 @@ $("#overlay").on('click', function(e){
 	$("#masterContainer").removeClass("overlay");
 });*/
 
-$("#cat1").hover(function(){
-	$(".catDiv").toggleClass("displayBlock");
-});
+ $("#cat1").hover(function(){
+ 	$(".catDiv1").toggleClass("displayBlock");
+ });
 
-$(".subMenuLi").hover(function(){
-	$(".innerMenu").addClass("displayBlock");
-});
+ $("#acc1").hover(function(){
+ 	$(".acc1_1").toggleClass("displayBlock");
+ });
+  $("#acc2").hover(function(){
+ 	$(".acc2_1").toggleClass("displayBlock");
+ });
+
+ $("#cat2").hover(function(){
+ 	$(".catDiv1").toggleClass("displayBlock");
+ });
+
+ $("#cat3").hover(function(){
+ 	$(".catDiv3").toggleClass("displayBlock");
+ });
+
+ $("#cat4").hover(function(){
+ 	$(".catDiv4").toggleClass("displayBlock");
+ });
+
+ $("#cat5").hover(function(){
+ 	$(".catDiv5").toggleClass("displayBlock");
+ });
+
+ $("#cat6").hover(function(){
+ 	$(".catDiv6").toggleClass("displayBlock");
+ });
+
+ $("#cat7").hover(function(){
+ 	$(".catDiv7").toggleClass("displayBlock");
+ });
+
+ $("#cat8").hover(function(){
+ 	$(".catDiv8").toggleClass("displayBlock");
+ });
+
+ 
+
 
 
 
