@@ -267,27 +267,35 @@ h1 {
 }
 
 
-#categories li:hover {
+.menuLi:hover {
 	border-bottom: 5px solid orange;
 	color:#000;
 }
 
 
 
+
+
 .catDiv {
 	position: absolute;
-	top:122px;
-	left:28px;
+	top:32px;
 	width:980px;
 	background-color: #fff;
 	z-index: 2;
 	display: none;
+	height:500px;
 	
 }
 
-.displayBlock {
-	display: block;
+.innerMenu {
+	position: absolute;
+	left:250px;
+	display: none;
 }
+
+
+
+
 
 .displayBlock {
 	display: block;
@@ -300,7 +308,7 @@ h1 {
 	width:225px;
 	border-right:1px solid #E1E3DF;
 }
-.catDiv li {
+.subMenuLi {
 	padding:15px;
 }
 
@@ -316,12 +324,16 @@ h1 {
 	top:10px;
 	left:40px;
 }
-#catList li{
+#catList .menuLi{
 	float:left;
-	display: inline;
 	position: relative;
 	padding-right:10px;
 	height: 26px;
+}
+
+.subMenu {
+	width:200px;
+	border-right:1px solid #E1E3DF;
 }
 
 h3 {
