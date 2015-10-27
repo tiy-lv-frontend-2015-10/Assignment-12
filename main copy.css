@@ -1,0 +1,439 @@
+
+/*******************
+GENERAL
+*********************/
+
+/*.mainContent{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}*/
+
+
+
+/************************
+HEADER
+****************************/
+header{
+	margin-left: 75px;
+	margin-right: 75px;
+	background: white;
+}
+
+h1{
+	color: #F87217;
+	float: left;
+	position: relative;
+	display: inline;
+	font-family: 'Merriweather', serif;
+	padding-right: 39px;
+
+}
+
+#search {
+	float:left;
+	position: relative;
+	height: 25px;
+	width: 270px;
+
+}
+
+.searchB{
+	height: 31px;
+	width: 80px;
+	position: absolute;
+	border:none;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+
+}
+
+.searchbar{
+	float:left;
+	position: relative;
+	top:30px;
+}
+
+.signup {
+	float: right;
+	position: relative;
+	padding: 16px 0px;
+}
+
+.signup ul li  {
+	padding-left: 15px;
+	list-style: none;
+	display: inline;
+
+}
+
+
+.siBtn{
+	border: none;
+	padding: 10px;
+}
+
+
+.cart{
+	float:right;
+	padding-left: 15px;
+}
+
+.cart:before{
+	content:" ";
+	background: url("assets/cart.png"); 
+
+}
+
+
+/************************
+NAV
+****************************/
+.navbar{
+	position: relative;
+	float: left;
+	border-top:1px solid lightgrey ;
+	border-bottom:1px solid lightgrey ;
+	width: 100%;
+}
+
+.navbar ul{
+list-style: none;
+display: inline;
+position: relative;
+float:left;
+padding-right:15px ;
+
+
+}
+
+.navbar ul li{
+	display: inline;
+    float: left;
+    padding-left: 20px;
+    position: relative;
+    left: 15px;
+    color: grey;
+
+
+}
+
+/************************
+PANEL1
+****************************/
+.panel{
+	position: relative;
+	display: inline;
+	float: left;
+	left: 75px;
+}
+
+
+
+.panel p{
+	color: black;
+	font-weight: bold;
+}
+
+#panel-span{
+	font-weight: bold;
+}
+
+.panel ul {
+	float: left;
+	position: relative;
+	background:  #FCFCFA;
+	margin:0px;
+	list-style: none;
+	padding: 15px;
+}
+
+.panel ul li {
+	
+	padding-left: 15px;
+	padding-top: 10px;
+	color: blue;
+}
+
+/************************
+PANEL2
+****************************/
+
+
+.panel2{
+    position: relative;
+    display: block;
+    width: 22%;
+    right: 148px;
+    top: 550px;
+    float: left;
+}
+
+	
+}
+
+.panel2 span{
+	font-weight: bold;
+}
+
+
+.price input{
+	width: 20%;
+}
+
+
+
+.item-type{
+	padding:0px;
+	margin: 0px;
+}
+
+
+.rBtn{
+	position: relative;
+	display: inline;
+	float:left;
+}
+.radio{
+    position: relative;
+    padding: 0px;
+   float:left;
+}
+
+button.rBtn1{
+	float:left;
+}
+
+button.rBtn2{
+	float:left;
+}
+button.rBtn3{
+	float:left;
+}
+
+.item-type {
+	border-bottom: 1px solid lightgrey;
+}
+
+/*price*/
+.price {
+	border-bottom:1px solid lightgrey;
+	padding-bottom: 30px;
+}
+
+/*buttons*/
+
+
+.square{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	border: none;
+}
+
+.red{
+	background: red;
+
+}
+
+.orange{
+	background: orange;
+}
+
+.yellow{
+	background: yellow;
+}
+
+.green{
+	background: green;
+}
+
+.blue{
+	background: blue;
+}	
+
+.purple{
+	background: purple;
+}	
+
+
+.black{
+	background: black;
+}	
+
+.white {
+	background: white;
+	border: 1px solid lightgrey;
+
+}
+
+
+
+.buttoncolor {
+	height: 100px;
+	border-bottom: 1px solid lightgrey;
+}
+
+/*ordering*/
+
+.ordering {
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 25px;
+}
+
+.ordering input{
+	float: left;
+}
+
+/************************
+MAIN CONTENT
+****************************/
+/*general*/
+
+.top-cat{
+	display: inline;
+	top: 40px;
+
+
+}	
+
+.top-cat img{
+ 	display: inline;
+ 	float: left;
+ 	padding: 20px;
+}
+
+/*first row main*/
+.cat-container{
+	position: relative;
+	box-sizing: border-box;
+	width: 75%;
+	height: 100%;
+	float: right;
+
+}	
+
+.top-cat{
+    position: inline-block;
+    float: left;
+    top: 40px;
+    position: relative;
+    top: -699px;
+}
+}
+
+.popular{
+    position: relative;
+    right: 100px;
+    float: right;
+
+    
+  
+}
+
+.popular span{
+	position: relative;
+    right: 631px;
+    float: right;
+    top: 19px;
+    font-weight: bold;
+}
+
+.popular img{
+    float: left;
+    display: inline;
+    position: relative;
+    left: 130px;
+    top: 35px;
+}
+
+.popular img .img-cap{
+	position: absolute;
+	bottom: 60px;
+	top: 40px;
+}
+
+
+ .img-cap{
+	position: absolute;
+	left: 10px;
+	padding: 5px;
+	display: none;
+
+}
+
+
+/*second poplular*/
+
+.most{
+	position: relative;
+}
+
+
+.allCat{
+	background: blue;
+	float:right;
+	width: 75%;
+	position: relative;
+}
+
+
+
+.allCat-head{
+	display: inline-block;
+}
+
+
+
+/************************
+CAT AD
+****************************/
+
+
+.catAdContainer{
+	display: inline;
+	float: right;
+	width: 70%;
+
+}
+
+.catAd {
+	display: inline;
+	float: left;
+}
+
+.catAd img{
+	display: inline;
+	float: left;
+}
+
+
+.relatedTo{
+	clear:both;
+	width: 70%;
+}
+
+
+
+/************************
+CAT AD
+****************************/
+
+.subscribe{
+	clear:both;
+}
+/***********
+DRY CSS
+****************************/
+
+
+
+
+
+
+
+
+
+
+
+
