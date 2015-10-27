@@ -309,15 +309,18 @@
 <script type="x-tmpl-mustache" id="images"> 
 <ul>
 {{#listings}}
-<div>
 <li>
+<div>
   <img src="{{url_75x75}}" />
-  <span>{{"shopname"}}</span>
-  <span>{{"price"}}</span>
-  <span>{{"currencycode"}}</span>
+  <span>{{shop_name}}</span>
+  <span>{{price}}</span>
+  <span>{{currency_code}}</span>
+  <span>{{title}}</span>
+  </div>
   </li>
 {{/listings}}
 </ul>
+
 </script>
 
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

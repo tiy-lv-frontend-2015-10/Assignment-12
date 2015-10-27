@@ -13,9 +13,10 @@ $.ajax({
 
 var listings = test.results.map(function(listing){
   return {
-    "shopname": listing.shop_name,
+    "title":listing.title,
+    "Shop_name": listing.shop_name,
     "price": listing.price,
-    "currencycode":listing.currency_code,
+    "currency_code":listing.currency_code,
     "url_75x75": listing.Images[0].url_75x75
   };
 

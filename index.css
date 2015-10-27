@@ -84,7 +84,7 @@ padding: 10px;
 
 #boxes2 div img{
 	width:126px;
-	height: 180px;
+	height: 100px;
 	padding: 5px;
 }
 
@@ -230,3 +230,6 @@ top: 1970px;
 }
 
 
+#images{position: relative;
+float: left;
+}
