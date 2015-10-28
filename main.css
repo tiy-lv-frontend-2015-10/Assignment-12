@@ -536,23 +536,28 @@ select:hover {
 	width:220px;
 }
 
+h5 {
+	font-family: serif;
+	text-align: center;
+}
+
 .email_input {
 	position: relative;
     height: 30px;
-    width: 200px;
-    left: 30px;
+    width: 240px;
+    left: 70px;
     border-radius: 3px;
     border: 1px solid #BCB7B3;
     font-size: 14px;
     font-family: sans-serif;
-    padding-left: 14px;
+    padding-left: 15px;
 }
 
 .button {
 	position: relative;
 	width: 92px;
 	height: 38px;
-	left: 40px;
+	left: 80px;
 	border-radius: 3px;
 	border: 1px solid #0099cc;
 	background-color: #2F98B1;

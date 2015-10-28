@@ -21,9 +21,10 @@ var whiskeyHome = {
 	"images": images
 };
 
-var whiskeyImages = $("#whiskeyImages").text();
-var whiskeyHTML = Mustache.render(whiskeyImages, whiskeyHome);
-$("#bottomImages").html(whiskeyHTML);
+	var whiskeyImages = $("#whiskeyImages").text();
+	var whiskeyHTML = Mustache.render(whiskeyImages, whiskeyHome);
+	$("#bottomImages").html(whiskeyHTML);
 
+	});
 
 });
