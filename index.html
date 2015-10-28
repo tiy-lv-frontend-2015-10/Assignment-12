@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EtsyClone</title>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+
+	<!--Top bar - Etsy logo, search, log in - shopping cart link  -->
+	<div class="top-wrap">
+				<div class="container top-bar">
+					<a href="https://www.etsy.com/"><img src="assets/etsy-logo.png" id="etsy"/></a>
+					<div id='search-window'>
+						<input type="text" id="search-box" placeholder="Search for items or shops" />
+					</div>
+						<span id="search-button">
+							<a href="#">Search</a>
+						</span>
+
+					<span class="top-links"><a href="#">Sell on Etsy</a></span>
+					<span class="top-links"><a href="#">Register></a></span>
+					<span class="top-links" id="sign-in"><a href="#">Sign In</a></span>
+					<div class="top-links" id="cart"><a href="#">
+						<img src="assets/cart.png" />
+					</a><p>Cart</p>
+					</div>
+				</div>
+	</div>
+		<div class='line-em'></div>
+		<!-- Main navigation menu , 2nd division from top -->
+	<div class="top-wrap">
+				<div class="container nav-bar">
+					<ul id="main-nav">
+						<li class="main-nav-link"><a href="#">Clothing & Accessories</a></li>
+						<li class="main-nav-link"><a href="#">Jewelry</a></li>
+						<li class="main-nav-link"><a href="#">Craft Supplies & Tools</a></li>
+						<li class="main-nav-link"><a href="#">Weddings</a></li>
+						<li class="main-nav-link"><a href="#">Entertainment</a></li>
+						<li class="main-nav-link"><a href="#">Home & Living</a></li>
+						<li class="main-nav-link"><a href="#">Kids & Baby</a></li>
+						<li class="main-nav-link"><a href="#">Vintage</a></li>
+					</ul>
+				</div>
+	</div>
+		<div class='line-em'></div>
+	<div class="container body-wrap">
+		<!-- Main div -  left sidebar/menus, refine-search -->
+		<div id="left-panel">
+					<p id="left-panel-top-box-above">Show results for:</p>
+						<div id="box-left-top">
+							<p>All Categories</p>
+								<div id="top-side-list">
+
+
+								</div>
+						</div>
+			<p class="left-panel-inner-above">Refine your search</p>
+			<div id="box-left-lower">
+				<div id="box-left-item-type">
+							<p>Item Type</p>
+							<div id="i-types">
+				        <input type="radio" name="iType" id='allItems' class="spaced" value="allItems" checked />
+				        <label for="allItems" class="spaced left-labels">All Items</label><br />
+				        <input type="radio" name="iType" id='handmade' class="spaced" value="handmade"/>
+				        <label for="handmade" class="spaced left-labels">Handmade</label><br />
+				        <input type="radio" name="iType" id='vintage' class="spaced" value="vintage"/>
+				        <label for="vintage" class="spaced left-labels">Vintage</label><br />
+				      </div>
+				</div>
+			<hr width=90% color="#DCDCD9" noshade />
+				<p class="left-panel-inner-above">Price</p>
+						<div id="price" class="choices">
+								<div class="price-box" id="low-price">
+									<p>$</p>
+									<input type="text" placeholder="Low" class="price-input"/>
+								</div>
+									<p>to</p>
+								<div class="price-box">
+									<p>$</p>
+									<input type="text" placeholder="High" class="price-input"/>
+								</div>
+								<div class="price-box" id="arrow">
+									<span id='point'><img src="assets/point.png" /></span>
+								</div>
+						</div>
+
+					<hr width=90% color="#DCDCD9" noshade />
+						<p class="left-panel-inner-above">Filter by Color</p>
+								<div id="color_filter" class="choices">
+									<ul id="colours">
+										<li class="swatch-box" style="background: #f40b32"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #ff7f00"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #f3cc0c"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #0ac20a"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #0cccf3"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #a60cf3"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #000000"><a href="#" > </a></li>
+										<li class="swatch-box" style="background: #ffffff"><a href="#" > </a></li>
+									</ul>
+								</div>
+					<hr width=90% color="#DCDCD9" noshade />
+						<p class="left-panel-inner-above">Ordering Options</p>
+								<div id="ordering-options" class="choices">
+									<input type="checkbox" name="ordering-options" id="gift-cards" class="spaced chx" />
+									<label for="gift-cards" class="spaced chkbx left-labels">Accepts Etsy Gift Cards</label>
+									<input type="checkbox" name="ordering-options" id="customizable" class="spaced chx" />
+									<label for="customizable" class="spaced chkbx left-labels">Customizable</label>
+								</div>
+					<hr width=90% color="#DCDCD9" noshade />
+						<p class="left-panel-inner-above">Shop Location</p>
+								<div id="shop-location" class="choices">
+
+						        <input type="radio" name="shop-location" id='anywhere' class="spaced shp" value="allItems" checked />
+						        <label for="anywhere" class="spaced left-labels">Anywhere</label><br />
+						        <input type="radio" name="shop-location" id='united-states' class="spaced shp" value="handmade"/>
+						        <label for="united-states" class="spaced left-labels">United States</label><br />
+						        <p><a href="#" class="left-labels" id="floor">Choose a custom location</a></p>
+
+								</div>
+			</div>
+		</div>
+
+
+<!-- Main div, Top 5 categories - product listing pictures/links -->
+			<div id="right-panel">
+				<h3>Top Categories for "whiskey"</h3>
+				<div id="top-5-first-2">
+
+				</div>
+				<div class="normal-row" id="top-5-next-3">
+
+				</div>
+				<div id="bottom-line"></div>
+
+<!-- MAIN PRODUCT DISPLAY FIELD********************************************************* -->
+<!-- *********************************************************************************** -->
+
+			<p class="low-header"><a href="#" class="teal">All Categories</a>> whiskey</p>
+
+				<div id="listDataContainer">
+
+				</div>
+
+<!-- END of PHOTO DISPLAY******************************************** -->
+				<p class="low-header">Related to <span id="friggin-bold-goddammit">whiskey</span></p>
+			<div id="right-side-footer">
+				<div class="pic-footer">
+					<ul>
+						<li><a href="#" class="teal">whiskey decanter</a></li>
+						<li><a href="#" class="teal">whiskey glasses</a></li>
+						<li><a href="#" class="teal">jack daniels</a></li>
+						<li><a href="#" class="teal">bourbon</a></li>
+					</ul>
+				</div>
+				<div class="pic-footer">
+					<ul>
+						<li><a href="#" class="teal">cigar</a></li>
+						<li><a href="#" class="teal">scotch</a></li>
+						<li><a href="#" class="teal">beer</a></li>
+						<li><a href="#" class="teal">jameson</a></li>
+					</ul>
+				</div>
+				<div class="pic-footer">
+					<ul>
+						<li><a href="#" class="teal">flask</a></li>
+						<li><a href="#" class="teal">whiskey decanter set</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<p class="low-header">Looking for shops? <span><a href="#" class="teal">whiskeyweddingbells, </a><a href="#" class="teal">WhiskeyDogWares, </a><a href="#" class="teal">WhiskeyWhims. </a><a href="#" class="teal"> See more.</a></span></p>
+
+			<div id="pagination-bar">
+				<div class="paginator"> < </div>
+				<div class="paginator actuated">1</div>
+				<div class="paginator">2</div>
+				<div class="paginator">3</div>
+				<div class="paginator">4</div>
+				<div class="paginator">5</div>
+				<div class="paginator">6</div>
+				<div class="paginator">7</div>
+				<div class="paginator">8</div>
+				<div class="paginator darker">...</div>
+				<div class="paginator">250</div>
+				<div class="paginator"> > </div>
+			</div>
+
+
+
+
+			</div> <!-- #right-panel -->
+
+
+
+	</div>  <!-- .container body-wrap -->
+
+<div class='line-em'></div>
+
+<div class='footer'>
+	<div class="newsletter">
+		<p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</p>
+		<div class="middle-newsletter">
+			<div class="email">
+				<input type="text" placeholder="Enter your email" />
+			</div>
+			<div class="subscribe">Subscribe</div>
+		</div>
+	</div>
+
+	<div class="footer-links">
+		<div class="f-link-col">
+			<p id="passion">Turn your passion into a business</p>
+			<span id="o-shop">Open a shop</span>
+			<p id="blah">Sell on Etsy</p>
+			<p><a href="">Seller handbook</a></p>
+			<p><a href="">Etsy credit card reader</a></p>
+		</div>
+		<div class="f-link-col">
+			<p>Join the community</p>
+			<p><a href="">Teams</a></p>
+			<p><a href="">Forums</a></p>
+			<p><a href="">Upcoming events</a></p>
+			<p><a href="">Affiliates</a></p>
+		</div>
+		<div class="f-link-col">
+			<p>Discover and shop</p>
+			<p><a href="">Gift cards</a></p>
+			<p><a href="">Blog</a></p>
+			<p><a href="">Tastemakers</a></p>
+			<p><a href="">Mobile apps</a></p>
+			<p><a href="">Gift registries</a></p>
+			<p><a href="">Wholesale</a></p>
+			<p><a href="">Manufacturing</a></p>
+			<p><a href="">Search</a></p>
+			<p><a href="">Etsy finds</a></p>
+		</div>
+		<div class="f-link-col">
+			<p>Get to know us</p>
+			<p><a href="">About</a></p>
+			<p><a href="">Policies</a></p>
+			<p><a href="">Careers</a></p>
+			<p><a href="">Press</a></p>
+			<p><a href="">Developers</a></p>
+			<p><a href="">Investors</a></p>
+		</div>
+		<div class="f-link-col">
+			<p>Follow Etsy</p>
+			<p><a href="">Facebook</a></p>
+			<p><a href="">Twitter</a></p>
+			<p><a href="">Pinterest</a></p>
+			<p><a href="">Instagram</a></p>
+		</div>
+		<div class='line-em'></div>
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+	<script src="data.js"></script>
+	<script src="main.js"></script>
+
+	<script type="x-tmpl-mustache" id="categoryTemplate">
+	  <ul>
+			{{#categories}}
+				<li class="top-side-item"><a href="#">{{.}}</a></li>
+			{{/categories}}
+		</ul>
+	</script>
+
+	<script type="x-tmpl-mustache" id="topTwoTemplate">
+		{{#top2cats}}
+		<div class="big-image">
+		<img src={{photo}} />
+			<div class="inner-white-panel-top">
+				<p class="white-title">{{category}}</p>
+				<a href="" class="white-link">{{hits}}</a>
+			</div>
+		</div>
+		{{/top2cats}}
+	</script>
+
+	<script type="x-tmpl-mustache" id="next3Template">
+		{{#next3cats}}
+		<div class="norm-image">
+		<img src={{photo}} />
+			<div class="inner-white-panel-next">
+				<p class="white-title">{{category}}</p>
+				<a href="" class="white-link">{{hits}}</a>
+			</div>
+		</div>
+		{{/next3cats}}
+	</script>
+
+
+
+	<script type="x-tmpl-mustache" id="listingTemplate">
+			{{#listings}}
+			<div class="product-square">
+			<img src={{listingPhoto}} class="product-pic"/>
+				<div class="inner-button-panel">
+						<div class='like-heart'><img src="assets/heartb.png" class="icon" /></div>
+						<div class="like-burger"><img src="assets/hamburgerb.png" class="icon" /><span class="like-plus"><span class="down-arrow"></span></span></div>
+				</div>
+				<div class="factoids">
+					<p class="title-text">{{listingTitle}}</p>
+					<span class="shop-name">{{listingSeller}}</span>
+					<span class="price">${{listingPrice}}</span>
+				</div>
+			</div>
+			{{/listings}}
+	</script>
+
+</body>
+</html>
