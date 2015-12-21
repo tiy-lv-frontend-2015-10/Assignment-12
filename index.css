@@ -64,12 +64,17 @@ body {
 	background-color: white;
 }
 
+#categories{
+	border: 1px solid black;
+}
+
 #categories li {
 	position: relative;
 	right: 30px;
 	bottom: 340px;
 	padding: 5px;
 	font-family: Arial;
+
 }
 
 #boxes1 {
