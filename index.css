@@ -1,35 +1,48 @@
-a:visited{color: #0192B5;}
+a:visited {
+	color: #0192B5;
+}
 
-
-a:link{
+a:link {
 	text-decoration: none;
 }
 
-
-.header h1{font-family: 'slabo 27px', serif;
-position: relative;
-left: 100px;
-color: #f45800;
-font-size: 40px;
-display: inline; 
-width: 100%;
-height: 100%;
-top: 60px;
+body {
+	background-color: #F5F5F1
 }
 
-#searchbar input{position: relative;
-left:200px;
-top:25px;
-height: 30px;
-width: 250px;
+#MainContainer{
+	background-color: white
 }
 
-#submit{position: relative;
-left:240px;
-height: 50px;
-width: 50px;}
+.header h1 {
+	font-family: 'slabo 27px', serif;
+	position: relative;
+	left: 100px;
+	color: #f45800;
+	font-size: 40px;
+	display: inline;
+	width: 100%;
+	height: 100%;
+	top: 60px;
+}
 
-.navone li{position: relative;
+#searchbar input {
+	position: relative;
+	left: 200px;
+	top: 25px;
+	height: 30px;
+	width: 250px;
+}
+
+#submit {
+	position: relative;
+	left: 240px;
+	height: 50px;
+	width: 50px;
+}
+
+.navone li {
+	position: relative;
 	left: 630px;
 	display: inline;
 	float: left;
@@ -37,13 +50,12 @@ width: 50px;}
 	color: #0192B5;
 	bottom: 60px;
 	font-family: Arial;
-	background-color: white;	
-
+	background-color: white;
 }
 
-
-.nav p{position: relative;
-	right:290px;
+.nav p {
+	position: relative;
+	right: 290px;
 	display: inline;
 	padding-left: 10px;
 	border-bottom: ;
@@ -52,184 +64,197 @@ width: 50px;}
 	background-color: white;
 }
 
+#categories li {
+	position: relative;
+	right: 30px;
+	bottom: 340px;
+	padding: 5px;
+	font-family: Arial;
+}
 
-
-#categories li{position: relative;
-right: 1030px;
-bottom: 340px;
-padding: 5px;
-font-family: Arial;}
-
-
-#boxes1{
+#boxes1 {
 	position: relative;
 	left: 400px;
 	top: 100px;
-
 }
 
-#boxes3{position: relative;
-left: 400px;
-top: 100px;
-padding: 10px;
+#boxes3 {
+	position: relative;
+	left: 400px;
+	top: 100px;
+	padding: 10px;
 }
 
-
-#boxes2{
+#boxes2 {
 	position: relative;
 	display: inline;
 	left: 300px;
 	top: 120px;
 }
 
-#boxes2 div img{
-	width:126px;
+#boxes2 div img {
+	width: 126px;
 	height: 100px;
 	padding: 5px;
 }
 
-#boxes2 li{
+#boxes2 li {
 	float: left;
-list-style: none;}
+	list-style: none;
+}
 
+#whiskey {
+	position: relative;
+	left: 680px;
+	top: 10px;
+}
 
-#whiskey{position: relative;
-left: 680px;
-top: 10px;}
-
-h3{
+h3 {
 	position: relative;
 	display: inline;
 	right: 300px;
 	top: 30px;
 }
 
-#show{position: relative;
-right: 1000px;
-bottom:350px;
+#show {
+	position: relative;
 }
 
+div ul {
+	list-style: none;
+}
 
- div ul {list-style: none;}
-
-
-#search{position: relative;
+#search {
+	position: relative;
 	right: 1000px;
-bottom: 200px;}
+	bottom: 200px;
+}
 
-.circle {position: relative;
-width: 250px;
-height: 800px;
-left: 50px;
-bottom:200px ;
-list-style: none;}
+.circle {
+	position: relative;
+	width: 250px;
+	height: 800px;
+	left: 50px;
+	bottom: 200px;
+	list-style: none;
+}
 
-#united  input{position: relative;
-left: 10px;
-width:200px
-bottom:20px;}
+#united input {
+	position: relative;
+	left: 10px;
+	width: 200px bottom: 20px;
+}
 
-
-#traingle{position: relative;
-left: 180px;
-bottom: 120px;}
-
+#traingle {
+	position: relative;
+	left: 180px;
+	bottom: 120px;
+}
 
 #main {
-    width: 100px;
-    height: 100px;
-display: flex;
-    list-style: none;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	list-style: none;
 }
 
 #main div {
-    width: 22px;
-    height: 22px;
-     border: 1px solid grey;
-      padding: 1px;
-      border-radius: 4px;
-      
+	width: 22px;
+	height: 22px;
+	border: 1px solid grey;
+	padding: 1px;
+	border-radius: 4px;
 }
 
-#main li {	padding: 1px; 
-  }
-
-#Low input {position: relative;
-top: -5px;
-height:30px;
-width:50px;
-left:0px;}
-
-#High input{position: relative;
-top: -100px;
-left:100px;
-height:30px;
-width:50px;}
-
-#to ul{position: relative;
-left: 30px;
-top:-45px;
-color:black;
+#main li {
+	padding: 1px;
 }
 
-#email input{position: relative;
-left: 450px;
-top: 2070px;
-height: 30px;
-width: 300px;
-
-
+#Low input {
+	position: relative;
+	top: -5px;
+	height: 30px;
+	width: 50px;
+	left: 0px;
 }
 
-.bottom { 
-position: relative;
-left: 65px;
-top: 2200px;
-
+#High input {
+	position: relative;
+	top: -100px;
+	left: 100px;
+	height: 30px;
+	width: 50px;
 }
 
-#para2{position: relative;
-left: 300px;
-top: 2078px;
+#to ul {
+	position: relative;
+	left: 30px;
+	top: -45px;
+	color: black;
 }
 
-#para3{position: relative;
-left: 500px;
-top: 1970px;
+#email input {
+	position: relative;
+	left: 450px;
+	top: 2070px;
+	height: 30px;
+	width: 300px;
 }
 
-#para4{
+.bottom {
+	position: relative;
+	left: 65px;
+	top: 2200px;
+}
+
+#para2 {
+	position: relative;
+	left: 300px;
+	top: 2078px;
+}
+
+#para3 {
+	position: relative;
+	left: 500px;
+	top: 1970px;
+}
+
+#para4 {
 	position: relative;
 	left: 700px;
 	top: 1800px;
-
 }
 
-#para5{position: relative;
+#para5 {
+	position: relative;
 	left: 900px;
-	top:1625px;
+	top: 1625px;
 }
 
-#hoverbuttons p{position: relative;
-  float: left;
-    color: #999;
-    padding: 22px 0 28px;
-    display: inline;
-    left: 500px;
-    top:1700px;
+#hoverbuttons p {
+	position: relative;
+	float: left;
+	color: #999;
+	padding: 22px 0 28px;
+	display: inline;
+	left: 500px;
+	top: 1700px;
 }
 
-#bottomline p{position: relative;
-  float: left;
-    color: #999;
-    font-size: 12px;
-    padding: 22px 0 28px;
-    display: inline;
-    left: 500px;
-    top:1700px;
+#bottomline p {
+	position: absolute;
+	float: left;
+	color: #999;
+	font-size: 12px;
+	padding: 22px 0 28px;
+	display: inline;
+	left: 500px;
+	top: 1700px;
 }
 
-
-#images{position: relative;
-float: left;
+#images {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 100px;
 }
