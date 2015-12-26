@@ -13,10 +13,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-#TOP{
+#TOP {
 	position: relative;
 	left: 370px;
-	font:bold;
+	font: bold;
 	font-size: 20px;
 }
 
@@ -124,8 +124,6 @@ h1 {
 	border: 1px solid #DADBD6;
 	z-index: 3;
 }
-
-
 
 #signInTab {
 	height: 60px;
@@ -817,7 +815,7 @@ li {
 	border-bottom-right-radius: 3px;
 }
 
-#help a{
+#help a {
 	position: relative;
 	top: 10px;
 	color: gray;

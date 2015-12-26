@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Etsy</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -11,27 +12,29 @@
 	<div id="overlay" class="hidden"></div>
 	<div class="wrapperNav">
 		<div id="navBar">
-			
+
 			<h1>Etsy</h1>
 			<input id="searchBar" placeholder="Search for items or shops">
-			<input type="button" id="searchButton" value="Search"/>
-			
-			
+			<input type="button" id="searchButton" value="Search" />
+
+
 			<ul id="options">
 				<li><a href="#">Sell on Etsy</a></li>
 				<li><a href="#">Register</a></li>
-				<li><button id="signInButton"><a href="#">Sign In</a></button></li>
+				<li>
+					<button id="signInButton"><a href="#">Sign In</a></button>
+				</li>
 				<li id="cart"><span>Cart</span></li>
 			</ul>
-			
+
 		</div>
 	</div>
-	
+
 
 	<div id="categories">
 		<div class="wrapperNav">
 			<ul id="catList">
-				<li class="menuLi">Clothing &amp; Accesories	
+				<li class="menuLi">Clothing &amp; Accesories
 				</li>
 				<li class="menuLi">Jewelery
 				</li>
@@ -44,7 +47,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div id="TOP">
 		<p>Top categories for “whiskey”</p>
 	</div>
@@ -74,13 +77,13 @@
 		</div>
 
 		<div id="categoryGrid">
-			<div  id="one" class="large">
+			<div id="one" class="large">
 				<p class="whiteLabelLarge">Home &amp; Living</p>
 			</div>
-			<div  id="two" class="large">
+			<div id="two" class="large">
 
 				<p class="whiteLabelLarge">Art &amp; Collectibles</p>
-				
+
 			</div>
 			<div id="three" class="small">
 				<p class="whiteLabelSmall">Weddings</p>
@@ -96,30 +99,35 @@
 		<div class="clearfix"></div>
 
 
-		
+
 
 		<h3>Refine your search</h3>
-		
+
 		<div id="container"></div>
 
 		<div id="refineSearch">
 
 			<span id="itemType">Item Type</span>
 			<ul id="radioList">
-				<li><input type="radio" class="btn"><a href="#">All items</a></li>
-				<li><input type="radio" class="btn"><a href="#">Handmade</a></li>
-				<li><input type="radio" class="btn"><a href="#">Vintage</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">All items</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">Handmade</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">Vintage</a></li>
 			</ul>
-			
-			
+
+
 
 			<h3>Price</h3>
 			<input id="priceLow" placeholder="Low">
 			<span id="to">to</span>
 			<input id="priceHigh" placeholder="High">
-			<button id="goBtn"><div id="triangle"></div></button>
+			<button id="goBtn">
+				<div id="triangle"></div>
+			</button>
 
-			
+
 			<hr />
 
 			<h3>Filter by color</h3>
@@ -139,20 +147,24 @@
 			<h3>Ordering Options</h3>
 
 			<ul id="checkList">
-				<li><input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
-				<li><input class="btn"  type="checkbox"><a href="#">Customizable</a></li>
+				<li>
+					<input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+				<li>
+					<input class="btn" type="checkbox"><a href="#">Customizable</a></li>
 			</ul>
-			
+
 			<h3>Shop Location</h3>
 
 			<ul id="radioList">
-				<li><input type="radio" class="btn"><a href="#">Anywhere</a></li>
-				<li><input type="radio" class="btn"><a href="#">United States</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">Anywhere</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">United States</a></li>
 				<li><a href="#">Choose a custom Location</a></li>
 			</ul>
 
 			<hr />
-			
+
 
 			<h3>Ship To</h3>
 			<div>
@@ -160,11 +172,11 @@
 					<option>United States</option>
 					<option>Mexico</option>
 					<option>Canada</option>
-				</select>	
+				</select>
 
 
 			</div>
-		</div>	
+		</div>
 
 	</div>
 
@@ -178,7 +190,7 @@
 		<div id="subContainer">
 
 			<h2 id="topTrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
-			
+
 			<input id="emailBar" placeholder="Enter your email">
 			<button id="emailBtn">Subscribe</button>
 
@@ -189,7 +201,8 @@
 			<div id="footerLinks">
 
 				<ul class="footerList">
-					<li>Turn your passion into a <br /> business.</li>
+					<li>Turn your passion into a
+						<br /> business.</li>
 					<li><a href="" id="openShopBtn">Open a shop</a></li>
 					<li>Sell on Etsy</li>
 					<li><a href="#">Seller Handbook</a></li>
@@ -243,7 +256,7 @@
 
 
 			</div>
-		</div>	
+		</div>
 
 		<div class="clearfix"></div>
 
@@ -251,15 +264,21 @@
 
 		<div id="btnListDiv">
 			<ul id="btnList">
-				<li><button id="usBtn"><a href="#">United States</a></button></li>
-				<li><button id="langBtn"><a href="#">English (US)</a></button></li>
-				<li><button id="currencyBtn"><a href="#">$ USD</a></button></li>
-				
+				<li>
+					<button id="usBtn"><a href="#">United States</a></button>
+				</li>
+				<li>
+					<button id="langBtn"><a href="#">English (US)</a></button>
+				</li>
+				<li>
+					<button id="currencyBtn"><a href="#">$ USD</a></button>
+				</li>
+
 			</ul>
 
 			<li id="help"><a href="#">Help</a></li>
 		</div>
-		
+
 
 		<div id="end">
 			<span id="copyright">&copy; 2015 Etsy, Inc.</span>
@@ -269,7 +288,7 @@
 				<li><a href="#">Privacy</a></li>
 				<li><a href="#">Interest-based ads</a></li>
 			</ul>
-		</div>	
+		</div>
 
 	</div>
 
@@ -286,30 +305,31 @@
 
 				<h4 id="myListTitle">{{title}}</h4>
 
-				
+
 
 				<div id="secondLine">
 
 					<p id="myListShopName">{{shop_name}}</p>
-					
+
 
 					<span id="myListCode">{{currency_code}}</span>
-					
+
 					<span id="myListPrice">${{price}}</span>
 
 				</div>
-				
-			</div>
-			{{/Listings}}
-			
 
-		</script>
+		</div>
+		{{/Listings}}
 
 
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+	</script>
 
-		<script src="main.js"></script>
 
-	</body>
-	</html>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+
+	<script src="main.js"></script>
+
+</body>
+
+</html>
