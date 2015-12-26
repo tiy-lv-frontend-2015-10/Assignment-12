@@ -1,38 +1,30 @@
 $(document).ready(function () {
 	var etsyURL = 'https://api.etsy.com/v2/listings/active.js?api_key=h9oq2yf3twf4ziejn10b717i&keywords=whiskey&includes=Images,Shop';
-
 	$.ajax({
 		url: etsyURL,
 		method: 'get',
 		dataType: 'jsonp'
-
-	}).then(function (test) {
-
-
-
-
-		var listings = test.results.map(function (listing) {
+	}).then(function (data) {
+		var Listings = data.results.map(function (obj) {
 			return {
-				"title": listing.title,
-				"Shop_name": listing.shop_name,
-				"price": listing.price,
-				"currency_code": listing.currency_code,
-				"url_75x75": listing.Images[0].url_75x75
+				'title': obj.title,
+				'price': obj.price,
+				'shop_name': obj.Shop.shop_name,
+				'currency_code': obj.currency_code,
+				'url_170x135': obj.Images[0]['url_170x135'],
+				'url': obj.url
 			};
-
 		});
-
-
-		var listingData = {
-			"listings": listings
+		var newData = {
+			Listings: Listings
 		};
+		var templateString = $("#listItemTemplate").text();
+		var listHtml = Mustache.render(templateString, newData);
+		$("#container").html(listHtml);
 
-
-
-
-		var images = $("#images").text();
-		var listHtml = Mustache.render(images, listingData);
-		$("#boxes2").html(listHtml);
 
 	});
+
+
+
 });
