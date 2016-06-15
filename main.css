@@ -135,7 +135,8 @@ h1 {
 #signInForm {
 	position: absolute;
 	top:13.5%;
-	left:20%;
+	left:-275px;
+	margin-left: 50%;
 	height:480px;
 	width:550px;
 	background-color:#fff;
