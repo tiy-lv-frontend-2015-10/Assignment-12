@@ -135,7 +135,8 @@ h1 {
 #signInForm {
 	position: absolute;
 	top:13.5%;
-	left:20%;
+	left:-275px;
+	margin-left: 50%;
 	height:480px;
 	width:550px;
 	background-color:#fff;
@@ -337,7 +338,7 @@ h1 {
 	margin:0;
 	position: relative;
 	top:10px;
-	left:40px;
+	padding-left:40px;
 }
 #catList .menuLi{
 	float:left;
