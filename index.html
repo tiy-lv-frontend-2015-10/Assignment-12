@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Etsy</title>
+	<link rel="stylesheet" href="main.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="head_container">
+		<div class="header">
+			<h1>Etsy</h1>
+			<input placeholder="Search for items or shops" class="search_bar"/>
+			<button class="butt">Search</button>
+			<ul class="list">
+				<li><a href="#" class="header">Sell on Etsy</a></li>
+				<li><a href="#" class="header">Register</a></li>
+				<li><button class="signIn">Sign in</button></li>
+			</ul>
+			<div class="cart_div">
+				<img src="assets/cart.png" class="cart_png">
+				<p><a href="#" class="cart">Cart</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="nav_container">
+		<div class="nav">
+			<ul class="nav_list">
+				<li>Clothing &amp; Accessories</li>
+					<!-- <ul class="sub_l1">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Jewelry</li>
+					<!-- <ul class="sub_l2">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Craft Supplies &amp; Tools</li>
+					<!-- <ul class="sub_l3">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Weddings</li>
+					<!-- <ul class="sub_l4">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Entertainment</li>
+					<!-- <ul class="sub_l5">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Home &amp; Living</li>
+					<!-- <ul class="sub_l6">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Kids &amp; Baby</li>
+					<!-- <ul class="sub_l7">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+				<li>Vintage</li>
+					<!-- <ul class="sub_l8">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul> -->
+			</ul>
+		</div>
+	</div>
+	<div id="main_container">
+		<div class="main">
+			<h5 class="h_0">Show results for:</h5>
+			<div class="categories">
+				<p><a href="#" class="all">All Categories</a></p>
+				<ul class="cat_list">
+					<li><a href="#">Home &amp; Living</a></li>
+					<li><a href="#">Art &amp; Collectibles</a></li>
+					<li><a href="#">Weddings</a></li>
+					<li><a href="#">Clothing</a></li>
+					<li><a href="#">Paper &amp; Party Supplies</a></li>
+					<li><a href="#">Jewelry</a></li>
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Craft Supplies &amp; Tools</a></li>
+					<li><a href="#">Bags &amp; Purses</a></li>
+					<li><a href="#">Bath &amp; Beauty</a></li>
+					<li><a href="#">Shoes</a></li>
+					<li><a href="#">Books, Movies &amp; Music</a></li>
+					<li><a href="#">Electronics &amp; Accessories</a></li>
+					<li><a href="#">Toys &amp; Games</a></li>
+					<li><a href="#">Pet Supplies</a></li>
+				</ul>	
+			</div>
+			<h5 class="h_0">Refine your search</h5>
+			<div class="categories">
+				<p><a href="#" class="all">Item Type</a></p>
+				<ul class="item_list">
+					<li><input type="radio" name="item" value="allItems" class="radio"/> All Items<br/></li>
+					<li><input type="radio" name="item" value="handmade" class="radio"/> Handmade<br/></li>
+					<li><input type="radio" name="item" value="allItems" class="radio"/> Vintage<br/></li>
+				</ul>
+				<br/>
+				<hr>
+				<p class="all">Price</p>
+				<input placeholder="Low" class="price">
+				<span>to</span>
+				<input placeholder="High" class="price">
+				<button class="arrow"></button>
+				<br/>
+				<br/>
+				<hr>
+				<p class="all">Filter by Color</p>
+				<ul class="colorbox">
+					<li><button class="red"></button></li>
+					<li><button class="orange"></button></li>
+					<li><button class="yellow"></button></li>
+					<li><button class="green"></button></li>
+					<li><button class="blue"></button></li>
+					<li><button class="purple"></button></li>
+					<li><button class="black"></button></li>
+					<li><button class="white"></button></li>
+				</ul>
+				<br/>
+				<hr>
+				<p class="all">Ordering Options</p>
+				<ul class="options">
+					<li><input type="checkbox" name="option" value="accepts">Accepts Etsy Gift Cards</li>
+					<li><input type="checkbox" name="option" value="custom">Customizable</li>
+				</ul>
+				<br/>
+				<hr>
+				<p class="all">Shop Location</p>
+				<ul class="location">
+					<li><input type="radio" name="item" value="anywhere">Anywhere</li>
+					<li><input type="radio" name="item" value="us">United States</li>
+				</ul>
+				<p class="choose">Choose a custom location</p>
+				<br/>
+				<hr>
+				<p class="all">Ship Location</p>
+				<select style="width: 200px;">
+					<option class="select" value="united">United States</option>
+				</select>
+				<br>
+			</div>
+		</div>
+		<div class="main_right">
+			<p class="top">Top categories for "whiskey"</p>
+			<div class="imagesContainer">
+				<div id="mainImgs">
+					<ul>
+						<li><img class="img1" src="https://placehold.it/346x222"></li>
+						<li><img class="img2" src="https://placehold.it/346x222"></li>
+					</ul>	
+				</div>
+				<div id="smallImgs">
+					<ul>
+						<li><img class="s_img1" src="https://placehold.it/227x180"></li>
+						<li><img class="s_img2" src="https://placehold.it/227x180"></li>
+						<li><img class="s_img3" src="https://placehold.it/227x180"></li>
+					</ul>
+				</div>
+				<div class="borderLine">
+					<p class="cats">All Categories > "whiskey" (26,233 Results)</p>
+				</div>
+				<div id="bottomImages">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom_container">
+		<div class="bottom">
+			<span>Related to <b>whiskey</b></span>
+			<ul class="b_list">
+				<li>whiskey decanter</li>
+				<li>whiskey glasses</li>
+				<li>jack daniels</li>
+				<li>bourbon</li>
+			</ul>
+			<ul class="b_list">
+				<li>cigar</li>
+				<li>scotch</li>
+				<li>beer</li>
+				<li>jameson</li>
+			</ul>
+			<ul class="b_list">
+				<li>flask</li>
+				<li>whiskey decanter set</li>
+			</ul>
+			<br/>
+			<p>Looking for shops? <a href="#">whiskeynweddingbells</a>, <a href="#">WhiskeyDogWares</a>, <a href="#">WhiskeyWhims</a>. <a href="#">See more.</a></p>
+		</div>
+	</div>
+	<div class="email_container">
+		<div class="email">
+			<h5>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h5>
+			<input type="email" placeholder="Enter your email" class="email_input" />
+			<button class="button">Subscribe</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+	<script type="text/javascript" src="items.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="x-tmpl-mustache" id="whiskeyImages">
+	<ul>
+		{{#images}}
+		<div>
+		<li>
+			<img src="{{url_170x135}}" />
+			<span>{{title}}</span>
+			<p>{{shop}}
+			${{price}}</p>
+		</li>
+		</div>
+		{{/images}}
+	</ul>
+	</script>
+
+</body>
+</html>
