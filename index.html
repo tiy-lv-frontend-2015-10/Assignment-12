@@ -3,7 +3,7 @@
 
 <head>
 	<title>Etsy</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="CSS/index.css">
 
 </head>
 
@@ -300,23 +300,23 @@
 		{{#Listings}}
 		<div id="myList">
 			<a href={{url}}</a>
-				<img id="myListImg" src={{url_170x135}}>
+			<img id="myListImg" src={{url_170x135}}>
 
 
-				<h4 id="myListTitle">{{title}}</h4>
+			<h4 id="myListTitle">{{title}}</h4>
 
 
 
-				<div id="secondLine">
+			<div id="secondLine">
 
-					<p id="myListShopName">{{shop_name}}</p>
+				<p id="myListShopName">{{shop_name}}</p>
 
 
-					<span id="myListCode">{{currency_code}}</span>
+				<span id="myListCode">{{currency_code}}</span>
 
-					<span id="myListPrice">${{price}}</span>
+				<span id="myListPrice">${{price}}</span>
 
-				</div>
+			</div>
 
 		</div>
 		{{/Listings}}
