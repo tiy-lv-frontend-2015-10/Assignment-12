@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Etsy</title>
+	<link rel="stylesheet" type="text/css" href="CSS/index.css">
+
+</head>
+
+<body>
+
+
+	<div class="wrapperNav">
+		<div id="navBar">
+
+			<h1>Etsy</h1>
+			<input id="searchBar" placeholder="Search for items or shops">
+			<input type="button" id="searchButton" value="Search" />
+
+
+			<ul id="options">
+				<li><a href="#">Sell on Etsy</a></li>
+				<li><a href="#">Register</a></li>
+				<li>
+					<button id="signInButton"><a href="#">Sign In</a></button>
+				</li>
+				<li id="cart"><span>Cart</span></li>
+			</ul>
+
+		</div>
+	</div>
+
+
+	<div id="categories">
+		<div class="wrapperNav">
+			<ul id="catList">
+				<li class="menuLi">Clothing &amp; Accesories
+				</li>
+				<li class="menuLi">Jewelery
+				</li>
+				<li class="menuLi">Craft Supplies &amp; Tools</li>
+				<li class="menuLi">Weddings</li>
+				<li class="menuLi">Entertainment</li>
+				<li class="menuLi">Home &amp; Living</li>
+				<li class="menuLi">Kids &amp; Baby</li>
+				<li class="menuLi">Vintage</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="TOP">
+		<p>Top categories for “whiskey”</p>
+	</div>
+
+	<div id="bodyContainer">
+		<h3>Show results for:</h3>
+
+		<div id="allCategories">
+			<span id="allCat">All Categories</span>
+			<ul id="allCatList">
+				<li><a href="#">Home &amp; Living</a></li>
+				<li><a href="#">Art &amp; Collectibles</a></li>
+				<li><a href="#">Weddings</a></li>
+				<li><a href="#">Clothing</a></li>
+				<li><a href="#">Paper &amp; Party Supplies</a></li>
+				<li><a href="#">Jewelery</a></li>
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Craft Supplies &amp; Tools</a></li>
+				<li><a href="#">Bags &amp; Purses</a></li>
+				<li><a href="#">Bath &amp; Beauty</a></li>
+				<li><a href="#">Shoes</a></li>
+				<li><a href="#">Books, Movies &amp; Music</a></li>
+				<li><a href="#">Electronics &amp; Accessories</a></li>
+				<li><a href="#">Toys &amp; Games</a></li>
+				<li><a href="#">Pet Supplies</a></li>
+			</ul>
+		</div>
+
+		<div id="categoryGrid">
+			<div id="one" class="large">
+				<p class="whiteLabelLarge">Home &amp; Living</p>
+			</div>
+			<div id="two" class="large">
+
+				<p class="whiteLabelLarge">Art &amp; Collectibles</p>
+
+			</div>
+			<div id="three" class="small">
+				<p class="whiteLabelSmall">Weddings</p>
+			</div>
+			<div id="four" class="small">
+				<p class="whiteLabelSmall">Clothing</p>
+			</div>
+			<div id="five" class="small">
+				<p class="whiteLabelSmall">Paper and Party Supplies</p>
+			</div>
+
+		</div>
+		<div class="clearfix"></div>
+
+
+
+
+		<h3>Refine your search</h3>
+
+		<div id="container"></div>
+
+		<div id="refineSearch">
+
+			<span id="itemType">Item Type</span>
+			<ul id="radioList">
+				<li>
+					<input type="radio" class="btn"><a href="#">All items</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">Handmade</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">Vintage</a></li>
+			</ul>
+
+
+
+			<h3>Price</h3>
+			<input id="priceLow" placeholder="Low">
+			<span id="to">to</span>
+			<input id="priceHigh" placeholder="High">
+			<button id="goBtn">
+				<div id="triangle"></div>
+			</button>
+
+
+			<hr />
+
+			<h3>Filter by color</h3>
+
+
+			<div class="colorDiv" id="redBox"></div>
+			<div class="colorDiv" id="orangeBox"></div>
+			<div class="colorDiv" id="yellowBox"></div>
+			<div class="colorDiv" id="greenBox"></div>
+			<div class="colorDiv" id="blueBox"></div>
+			<div class="colorDiv" id="purpleBox"></div>
+			<div class="colorDiv" id="blackBox"></div>
+			<div class="colorDiv" id="whiteBox"></div>
+
+			<hr />
+
+			<h3>Ordering Options</h3>
+
+			<ul id="checkList">
+				<li>
+					<input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+				<li>
+					<input class="btn" type="checkbox"><a href="#">Customizable</a></li>
+			</ul>
+
+			<h3>Shop Location</h3>
+
+			<ul id="radioList">
+				<li>
+					<input type="radio" class="btn"><a href="#">Anywhere</a></li>
+				<li>
+					<input type="radio" class="btn"><a href="#">United States</a></li>
+				<li><a href="#">Choose a custom Location</a></li>
+			</ul>
+
+			<hr />
+
+
+			<h3>Ship To</h3>
+			<div>
+				<select id="selectCountry">
+					<option>United States</option>
+					<option>Mexico</option>
+					<option>Canada</option>
+				</select>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="clearfix"></div>
+
+
+
+	<hr />
+	<div id="subscribeDiv">
+
+		<div id="subContainer">
+
+			<h2 id="topTrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
+
+			<input id="emailBar" placeholder="Enter your email">
+			<button id="emailBtn">Subscribe</button>
+
+
+
+
+
+			<div id="footerLinks">
+
+				<ul class="footerList">
+					<li>Turn your passion into a
+						<br /> business.</li>
+					<li><a href="" id="openShopBtn">Open a shop</a></li>
+					<li>Sell on Etsy</li>
+					<li><a href="#">Seller Handbook</a></li>
+					<li><a href="#">Etsy credit card reader</a></li>
+				</ul>
+
+
+
+				<ul class="footerList">
+					<li>Join the community</li>
+					<li><a href="#">Teams</a></li>
+					<li><a href="#">Forms</a></li>
+					<li><a href="#">Upcomming events</a></li>
+					<li><a href="#">Affiliates</a></li>
+				</ul>
+
+
+				<ul class="footerList">
+					<li>Discover and shop</li>
+					<li><a href="#">Gift cards</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Tastemakers</a></li>
+					<li><a href="#">Mobile apps</a></li>
+					<li><a href="#">Gift registeries</a></li>
+					<li><a href="#">Wholesale</a></li>
+					<li><a href="#">Manufacturing</a></li>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">Etsy Finds</a></li>
+				</ul>
+
+
+
+				<ul class="footerList">
+					<li>Get to know us</li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Policies</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Developers</a></li>
+					<li><a href="#">Investors</a></li>
+				</ul>
+
+
+				<ul class="footerList">
+					<li>Follow Etsy</li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Pinterest</a></li>
+					<li><a href="#">Instagram</a></li>
+				</ul>
+
+
+			</div>
+		</div>
+
+		<div class="clearfix"></div>
+
+
+
+		<div id="btnListDiv">
+			<ul id="btnList">
+				<li>
+					<button id="usBtn"><a href="#">United States</a></button>
+				</li>
+				<li>
+					<button id="langBtn"><a href="#">English (US)</a></button>
+				</li>
+				<li>
+					<button id="currencyBtn"><a href="#">$ USD</a></button>
+				</li>
+
+			</ul>
+
+			<li id="help"><a href="#">Help</a></li>
+		</div>
+
+
+		<div id="end">
+			<span id="copyright">&copy; 2015 Etsy, Inc.</span>
+
+			<ul id="documents">
+				<li><a href="#">Legal</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Interest-based ads</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+
+
+	<script type="x-tmpl.mustache" id="listItemTemplate">
+
+
+		{{#Listings}}
+		<div id="myList">
+			<a href={{url}}</a>
+			<img id="myListImg" src={{url_170x135}}>
+
+
+			<h4 id="myListTitle">{{title}}</h4>
+
+
+
+			<div id="secondLine">
+
+				<p id="myListShopName">{{shop_name}}</p>
+
+
+				<span id="myListCode">{{currency_code}}</span>
+
+				<span id="myListPrice">${{price}}</span>
+
+			</div>
+
+		</div>
+		{{/Listings}}
+
+
+	</script>
+
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+
+	<script src="main.js"></script>
+
+</body>
+
+</html>
